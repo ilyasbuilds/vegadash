@@ -23,7 +23,7 @@ contextBridge.exposeInMainWorld("telemetryAPI", {
     };
 
     socket.onclose = () => {
-      console.log("Disconnected from drone");
+      console.log("Disconnected from quadcopter");
     };
   }
 });
